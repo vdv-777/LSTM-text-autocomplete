@@ -1,0 +1,19 @@
+data:
+  debug: true
+  debug_train_size: 500
+  debug_val_size: 100
+  train_path: data/train.csv
+  val_path: data/val.csv
+model:
+  dropout: 0.2
+  embed_dim: 64
+  hidden_dim: 128
+  max_vocab_size: 3000
+  num_layers: 1
+  seq_len: 8
+training:
+  batch_size: 16
+  early_stopping_patience: 2
+  lr: 0.005
+  max_gen_tokens: 6
+  num_epochs: 5

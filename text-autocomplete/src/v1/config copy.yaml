@@ -1,0 +1,22 @@
+data:
+  raw_path: "data/raw_dataset.csv"
+  processed_path: "data/dataset_processed.csv"
+  train_path: "data/train.csv"
+  val_path: "data/val.csv"
+  test_path: "data/test.csv"
+
+model:
+  vocab_size: 10000
+  embed_dim: 128
+  hidden_dim: 256
+  num_layers: 2
+  seq_len: 12
+
+training:
+  batch_size: 256
+  num_epochs: 5
+  lr: 0.001
+  max_gen_tokens: 8
+
+
+  
